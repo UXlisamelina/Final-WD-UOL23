@@ -1,0 +1,1 @@
+The Good Day Moms Project was an original creation for this project. The project was part of the assesment for Web Development to showcase a 5-page website  using HTMl, CSS and JavaScript. The project report is included as an HTML file since this was a direct requirement from the University. This project was designed and completed over a four-week period.
