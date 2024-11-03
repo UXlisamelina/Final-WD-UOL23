@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- The head section contains the invisible information about the page for Search Engine Optimization, and Styling. -->
+<head>
+  	<title>Good Day Moms</title>
+    <link rel="icon" type="image/x-icon" href="/Images/GDMSmLogo.png">
+  	<meta charset="utf-8">
+  	<meta name="description" content="Good Day Moms is an online platform dedicated to providing information, inspiration and encouragement to moms as they journey through motherhood.">
+  	<meta name="keywords" content="Motherhood, Parenting">
+    <meta name="author" content="LisaT">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="refresh" content="600">
+    
+<!-- CSS Style Sheet -->
+  	<link rel="stylesheet" href="StyleSheet/style_index.css">
+    
+<!-- Font library -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    
+<!-- Social Icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+</head>
+  
+<!-- The structure for all the visible website content -->
+    
+  <body>
+      
+    <!-- A customized header with logo and search/signin options -->
+       <div class="header">
+           
+              <div class="logo">
+                   <a href="index.html"><img src="Images/GDMLogo.png" alt="Good Day Mom's Logo"></a>
+              </div>
+                
+                    <div class="search-link">
+                        <a href="#"><i class="fa fa-fw fa-search"></i></a> 
+                        <a href="#"><i class="fa fa-fw fa-user"></i></a>                        
+                    </div>
+                
+           </div>
+      
+      <!-- The Navigation Bar with the page menu options followed by Javascript for Hamburger Menu -->
+      
+           <nav class="mainmenu" id="menu-nav">
+               <div class="active"></div>                
+               <a href="/index.html">HOME</a>
+                <a href="#"><div class="mainmenu">PARENTING</div></a>
+                 <a href="/family.html">FAMILY</a>
+                   <a href="/about.html">ABOUT</a>
+                   <a href="/report.html">REPORT</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>           
+          
+          
+                    
+        <script>
+                // Displays Hamburger Menu
+            
+          function myFunction() {              
+            var x = document.getElementById("menu-nav");              
+            if (x.className === "mainmenu") {
+                x.className += " responsive";
+              } 
+              else {
+                x.className = "mainmenu";
+            }
+          }
+        </script>      
+    </nav>
+      
+      
+<!-- The hero image for the homepage-->
+      
+      <div class="hero">            
+        <h1 class="page-title">Home</h1>
+          <div class="row">
+            <div class="column">
+                <div class="card">
+                     <img src="Images/GDMHomeHero.png" alt="Mom and kids at the park">
+                </div>
+            </div>
+           </div>
+          
+        <div class="clearfix"></div>
+          
+      </div>
+
+                
+
+<!-- The highlighted images and headlines from articles for the main home page --> 
+      
+      <main class="headlines">
+         <h2>Trending...</h2>
+               
+            <div class="row2">
+                <div class="column2">
+                    <div class="card">
+                    <img src="Images/GDMHome1.png" alt="Mom with Family">
+                        <div class="container">
+                                <h3>Navigating Motherhood</h3>
+                                <p>Parenting is like building a bridge, as it requires parents to engineer a path through life’s obstacles to take a child from the point of conception over to the point of adulthood.</p>
+                                <a href="navigatingmotherhood.html"><div class="button">Read More</div></a>      
+                        </div>
+                    </div>
+                </div>
+ 
+
+            <div class="row2">
+                <div class="column2">
+                    <div class="card">
+                    <img src="Images/GDMHome2.png" alt="Moms reading to her kids">
+                        <div class="container">
+                            <h3>Raising Intelligent Kids</h3>
+                            <p>Intelligence is not a fixed or a limited resource, according to Carol Dweck, a Psychology Professor at Stanford University. Intelligence is a valuable asset to human existence.</p>
+                            <a href="raisingintelligentkids.html"><div class="button">Read More</div></a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="row2">
+                <div class="column2">
+                    <div class="card">        
+                    <img src="Images/GDMHome3.png" alt="Promo Motherhood with Melina">
+                        <div class="container">
+                            <h3>Motherhood with Melina</h3>
+                            <p>A video series based on insight into the nuances of motherhood and human behavior through applied psychological research, parenting experiences, and the use of technology.</p>
+                            <a href="family.html"><div class="button">View More</div></a>         
+                        </div>                 
+                    </div>
+                </div>
+ 
+            
+            <div class="row2">
+                <div class="column2">
+                    <div class="card">
+                    <img src="Images/GDMHome4.png" alt="Moms snuggling her baby">
+                        <div class="container">
+                            <h3>Stages of Child Development</h3>
+                            <p>Erik Erikson's theory of Social Development is not the only framework for raising children; it does however, provide an opportunity for reflection on the parenting skills associated with motherhood.</p>
+                            <div class="button">Read More</div>    
+                        </div>
+                    </div>
+                </div>     
+            </div>
+            </div>    
+     
+
+            <div class="row2">
+                <div class="column2">
+                    <div class="card">
+                    <img src="Images/GDMHome5.png" alt="Family on a Bike ride">
+                        <div class="container">
+                        <h3>Benefits of Leisure and Recreation</h3>
+                        <p>Making time for leisure and recreation in our busy schedules allows us to balance work and family. Leisure and recreation are essential to our physical and mental well-being and can help with stress management.</p>
+                        <div class="button">Read More</div> 
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="row2">
+                <div class="column2">
+                    <div class="card">
+                    <img src="Images/GDMHome6.png" alt="Family relaxing together">
+                        <div class="container">
+                        <h3>Parenting Styles</h3>
+                        <p>According to noted psychologist Diana Baumrind; based on conclusions, drawn from years of research and observations, she proposed the following parenting categories: Authoritarian, Authoritative and Permissive.</p>
+                        <div class="button">Read More</div>   
+                        </div>
+                    </div>
+                </div>        
+            </div>
+                
+                
+        <div class="next">
+            <p><a href="about.html">View More...</a></p>
+        </div>
+        </div>            
+                                                    
+             
+        <div class="clearfix"></div>
+          
+      </main>     
+    
+      
+      <!-- This section is the structure for subscription Sign Up -->
+      
+        <aside class="subscription">          
+          <h2>Sign Up to Receive FREE Parental Support Weekly!</h2>          
+          
+            <div class="subscribe-container">
+              
+                <form action="action_page.php">
+                    <input type="text" placeholder="name@email.com" name="mail" required>
+                    
+                       <div class="container2">
+                        <input type="submit"  value="Subscribe" disabled>
+                       </div>
+                 </form>
+           </div>
+        </aside>
+        
+                      
+  
+    
+    <!-- This section is the structure for the footer -->
+    
+        <footer>                           
+      
+          <div class="footerlogo">
+              <a href="index.html"><img src="Images/GDMSmLogo.png" alt="Good Day Mom's Logo"></a>
+          </div>
+                            
+                <p>&copy; 2023 Good Day Moms</p>          
+          
+                <div class="footersocial">
+                  <a href="#Facebook" class="fa fa-facebook"></a>
+                  <a href="#Instagram" class="fa fa-instagram"></a>
+                </div>             
+    
+        </footer>
+      
+  </body>
+
+</html>
+    

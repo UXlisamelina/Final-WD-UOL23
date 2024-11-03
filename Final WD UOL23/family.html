@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- The head section contains the invisible information about the page for Search Engine Optimization, and Styling. -->
+<head>
+  	<title>Good Day Moms</title>
+    <link rel="icon" type="image/x-icon" href="/Images/GDMSmLogo.png">
+  	<meta charset="utf-8">
+  	<meta name="description" content="Good Day Moms is an online platform dedicated to providing information, inspiration and encouragement to moms as they journey through motherhood.">
+  	<meta name="keywords" content="Motherhood, Parenting">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="refresh" content="600">
+    
+<!-- CSS Style Sheet -->
+  	<link rel="stylesheet" href="StyleSheet/style_family.css">
+    
+<!-- Font library -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+        
+<!-- Social Icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+</head>
+  
+<!-- The structure for all the visible website content -->
+  <body>
+      
+    <!-- A customized header with logo and search/sign in options -->
+       <div class="header">
+           
+              <div class="logo">
+                   <a href="index.html"><img src="Images/GDMLogo.png" alt="Good Day Mom's Logo"></a>
+              </div>
+                
+                    <div class="search-link">
+                        <a href="#"><i class="fa fa-fw fa-search"></i></a> 
+                        <a href="#"><i class="fa fa-fw fa-user"></i></a>                          
+                    </div>
+                
+       </div>
+      
+<!-- The Navigation Bar with the page menu options followed by Javascript for Hamburger Menu -->
+      
+           <nav class="mainmenu" id="menu-nav">
+               <div class="active"></div>                
+               <a href="/index.html">HOME</a>
+                <a href="#"><div class="mainmenu" style="pointer-events: none;">PARENTING</div></a>
+                 <a href="/family.html">FAMILY</a>
+                   <a href="/about.html">ABOUT</a>
+                   <a href="/report.html">REPORT</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>    
+          
+          
+                    
+                <script>
+                    // Displays Hamburger Menu
+                    
+                    function myFunction() {              
+                    var x = document.getElementById("menu-nav");                  
+                        if (x.className === "mainmenu") {
+                            x.className += " responsive";
+                            } 
+                        else {
+                            x.className = "mainmenu";
+                        }
+                    }
+                </script>           
+           </nav>
+      
+      
+<!-- The main section of the page with highlighted articles in video and text formats -->
+      
+                
+            <h1 class="page-title">Family</h1>          
+           
+    <main class="headlines">
+           <h2>Featured...</h2>
+               
+        <div class="row2">
+            <div class="column2">
+                <div class="card">                    
+                    <div class="container">
+                    <video poster="/Images/GDMFamily1.png" controls>
+                    <source src="Videos/Giving%20Birth.mp4" type="video/mp4">
+                    <source src="Videos/Giving%20Birth.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                        
+                    <h3>Giving Birth</h3>
+                    <div class="button" id="transcript" >Transcript</div>
+                  
+                    <!-- Video content transcript --> 
+                        
+                    <div class="popup" id="popupGB" >
+                        <div class="transcriptGB">
+                            <span class="collapse">&times;</span>
+                            
+                            <!-- Transcript - Lorem Ipsum Text followed by Javascript for popup of transcript-->
+                    
+                                <h2>Giving Birth</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ultricies nulla. Quisque accumsan lectus at pulvinar mattis. Donec efficitur, massa quis commodo imperdiet, nisi urna viverra est, nec accumsan nibh orci laoreet ante. Nulla non tempus orci. Morbi eleifend, arcu non eleifend accumsan, libero dui aliquet lacus, et imperdiet sapien dui ac nunc. Proin malesuada imperdiet orci sed vestibulum. Aenean ornare mollis leo, vitae vehicula quam commodo at. Aliquam eu tincidunt mi. Cras mauris mi, congue vel augue eget, accumsan tempus enim. Ut massa metus, dapibus non feugiat in, mattis nec ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras vitae massa et est malesuada finibus nec a leo. Etiam tristique ex nec faucibus gravida. Aliquam id velit eleifend, eleifend est et, maximus augue. Pellentesque porttitor faucibus fringilla.</p>
+
+                            <p>Proin diam eros, mollis id convallis et, fringilla et risus. Fusce convallis tincidunt augue accumsan facilisis. Phasellus non mi scelerisque mi vestibulum viverra nec at magna. Nulla condimentum, odio quis maximus elementum, nibh dolor gravida sem, vitae auctor augue ipsum vitae lectus. Vivamus et vulputate mi. Quisque accumsan, velit quis mollis consequat, diam risus elementum enim, eu mattis nibh tellus tempus diam. Vestibulum luctus arcu ac tristique luctus. Quisque euismod lacinia erat, at porta ligula aliquet eu.</p>
+
+                            <p>Nunc gravida scelerisque urna, et maximus elit aliquam eu. Vestibulum vitae magna in eros pellentesque auctor non a metus. Proin hendrerit faucibus ligula. Phasellus feugiat massa quis quam tempus tempor. Praesent vitae egestas erat, quis porta tellus. Etiam vel blandit mi. Nullam eget nibh velit. Sed suscipit in tortor ac malesuada. Aenean sollicitudin et lectus ut mattis. Curabitur et tincidunt magna, sed lacinia magna. Nam imperdiet massa id lectus dictum, eu hendrerit lorem placerat.</p>
+                            
+                            <p>Etiam sit amet lacinia metus. Praesent vulputate cursus nibh ut pellentesque. Pellentesque sit amet nulla cursus, cursus metus vitae, fermentum lorem. Vestibulum eleifend semper ligula, quis ultricies ligula rhoncus id. Integer malesuada tellus non auctor bibendum. Aenean pretium lacus nunc, a efficitur orci euismod eu. Integer porttitor tempus condimentum. Quisque eu malesuada felis, sed hendrerit risus. Aliquam sit amet felis non velit blandit bibendum. Vestibulum ac tellus eu eros venenatis lobortis. Suspendisse semper urna a consectetur aliquet. Nam tortor tortor, vehicula eu ullamcorper vel, volutpat at nisl. Mauris nec augue hendrerit, lobortis metus quis, porta magna.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+   
+             
+                <script>
+                    // Displays First Video Transcript via a popup window after clicking on transcript button
+        
+                    var popup = document.getElementById("popupGB");
+                    var button = document.getElementById("transcript");
+                    var span = document.getElementsByClassName("collapse")[0];
+
+                    button.onclick = function() {
+                        popup.style.display = "block";
+                    }
+
+                    span.onclick = function() {
+                        popup.style.display = "none";
+                    }
+
+                    // Closes the popup
+                    window.onclick = function(event) {
+                        if (event.target == popup) {
+                            popup.style.display = "none";
+                        }
+                    }
+                </script> 
+
+  
+            <div class="column2">
+                <div class="card">
+                    
+                    <div class="container">
+                    <video poster="/Images/GDMFamily2.png" controls>
+                    <source src="Videos/Meeting%20Needs.mp4" type="video/mp4">
+                    <source src="Videos/Meeting%20Needs.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                    </video>
+                        
+                    <h3>Meeting our Children's Needs</h3>
+                    <div class="button" id="transcript2" >Transcript</div>
+                        
+                    <!-- Video content transcript --> 
+                        
+                    <div class="popup2" id="popupMN" >
+                        <div class="transcriptMN">
+                            <span class="collapse2">&times;</span>
+                            
+                        <!-- Transcript - Lorem Ipsum Text followed by Javascript for popup of transcript-->
+                    
+                                <h2>Meeting Our Children's Needs</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur suscipit mauris eu eleifend. Vestibulum nec dolor ligula. Donec at interdum diam. Praesent ac lorem bibendum, accumsan mauris vitae, pretium nisi. Donec aliquam bibendum leo id iaculis. Etiam egestas dictum lacus a tincidunt. Phasellus ut sodales ipsum, vel finibus tortor. Aliquam maximus nulla sit amet dolor consequat tincidunt. Ut ut nisi ut turpis convallis congue. Curabitur ac venenatis arcu. Nullam viverra porttitor est, at imperdiet neque finibus sed. Fusce sed porttitor dui, id posuere nunc. Aliquam nec metus ac nulla eleifend vestibulum. Etiam interdum consequat nibh. Ut sollicitudin neque velit, a varius felis suscipit vitae. Donec vestibulum sodales urna, vitae ultrices odio gravida eget.</p>
+
+                        <p>Donec gravida lectus non volutpat tempor. Praesent ac enim arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tristique enim eu lorem varius sollicitudin. Maecenas diam lacus, blandit in ligula eu, suscipit faucibus est. Phasellus a risus vehicula, feugiat sapien at, tempus leo. Sed eget elit eu lectus finibus mattis. Cras leo arcu, viverra id sapien quis, egestas dictum lectus. Suspendisse nec dictum massa. Cras non metus ac risus iaculis dignissim. Vestibulum ultrices lacus vel nisl eleifend tincidunt egestas in ante. Cras non lobortis ligula, vitae faucibus lectus.</p>
+
+                        <p>Integer elementum erat sit amet felis ullamcorper, vel mollis mi scelerisque. Curabitur tempus placerat dui, ac posuere purus efficitur at. Nullam volutpat mi quam, ut fringilla sapien cursus eu. Donec porta arcu at elit volutpat, eget lacinia turpis pharetra. Aliquam egestas egestas sapien sed feugiat. Sed varius bibendum purus nec condimentum. Suspendisse rhoncus leo quis laoreet ullamcorper. In ac tellus vitae sem hendrerit congue.</p>
+
+                        <p>In ultricies magna at turpis hendrerit, et varius nisi ullamcorper. Phasellus nec mattis nibh. Donec eget nulla semper, scelerisque ante placerat, ultrices metus. Aenean hendrerit molestie leo, faucibus rutrum erat vestibulum eget. Mauris non enim vel felis porta tempus id a tellus. Maecenas ullamcorper finibus varius. Integer quis turpis at elit bibendum pharetra. Vivamus arcu risus, vehicula sed mauris quis, bibendum tempor risus.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+                <script>
+                    // Displays Second Video Transcript via a popup window after clicking on transcript button
+        
+                    var popup2 = document.getElementById("popupMN");
+                    var button = document.getElementById("transcript2");
+                    var span = document.getElementsByClassName("collapse2")[0];
+
+                    button.onclick = function() {
+                        popup2.style.display = "block";
+                    }
+
+                    span.onclick = function() {
+                        popup2.style.display = "none";
+                    }
+
+                    // Closes the popup
+                    window.onclick = function(event) {
+                        if (event.target == popup2) {
+                            popup2.style.display = "none";
+                        }
+                    }
+                </script> 
+    </div>
+        </div>
+        
+        
+         <!-- Sample advertisement-->   
+               
+    <div class="advert">
+         
+          
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                <img src="Images/GDMFamilyAd.png" alt="Lip Color Advertisement">
+                </div>
+            </div>
+        </div>
+          
+        <div class="clearfix"></div>
+          
+    </div>     
+               
+            <h2>Most Recent...</h2>
+
+        <div class="row3">
+            <div class="column3">
+                <div class="card">                  
+                    <div class="container">
+                    <img src="Images/GDMFamily3.png" alt="Moms having a picnic">
+                   <h3>Mental Wellness Matters</h3>
+                   <p>A mentally healthier society is possible if we are willing to accept ourselves with our strengths and our weaknesses. We are valuable persons, who may experience distress at times, but are not ashamed to seek help.</p>
+                   <div class="button">Read More</div>       
+                    </div>                 
+                </div>
+            </div>      
+      
+ 
+            <div class="column3">
+                <div class="card">                    
+                    <div class="container">
+                    <img src="Images/GDMFamily4.png" alt="Mom working from home">
+                    <h3>When Destiny Calls</h3>
+                    <p>Motherhood is a gift, but do not define yourself entirely by motherhood. It is foremost to be a whole person, knowing that your child will benefit from your example. There is no greater personal power than being fulfilled.</p>
+                    <div class="button">Read More</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+            <div class="column3">
+                <div class="card">                    
+                    <div class="container">
+                    <img src="Images/GDMFamily5.png" alt="Hands in unison">
+                    <h3>Tactics for Tough Times</h3>
+                    <p>How do we as a society build endurance and strength to withstand times of suffering? Supportive governance structures, communities, social, groups, friends, and family can all combine to make up a supportive backbone.</p>
+                    <div class="button">Read More</div>
+                    </div>
+                </div>
+            </div>
+    
+            <h2>Most Read...</h2>
+    
+    
+            <div class="column3">
+                <div class="card">                    
+                    <div class="container">
+                    <img src="Images/GDMFamily6.png" alt="Mouth whispering">
+                    <h3>The Truth about Opinions</h3>
+                    <p>An opinion is a personal view or belief which is formed not necessarily based on knowledge. So then why are individuals so liberal with the sharing of opinions, which in most cases are inaccurate appraisals of others?</p>
+                    <div class="button">Read More</div>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="column3">
+                <div class="card">
+                    <div class="container">
+                        <img src="Images/GDMFamily7.png" alt="Young child with teddy bear">
+                        <h3>What is Child Abuse?</h3>
+                        <p>Child Abuse is both shocking and commonplace, all around the world. The targets are defenseless children who will be inflicted with one or more forms of abuse. The act of abuse generally results in scars that can be long-lasting.</p>
+                        <div class="button">Read More</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="column3">
+                <div class="card">
+                    <div class="container">
+                    <img src="Images/GDMFamily8.png" alt="Parents scolding kid">
+                    <h3>The Art of Parenting</h3>
+                    <p>The parental environment can be peaceful most of the time; but due to the pressures of daily life it can explode without warning, to those oblivious to the intricacies of it's demands, In those moments, 24hrs just does not seem to be enough.</p>
+                    <div class="button">Read More</div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+     
+      
+      <div class="next">
+            <p><a href="navigatingmotherhood.html">View More...</a></p>
+      </div>                                                                
+             
+        <div class="clearfix"></div>
+          
+    </main>   
+      
+     
+<!-- This section is the structure for subscription Sign Up -->
+      
+            <aside class="subscription">          
+                <h2>Sign Up to Receive FREE Parental Support Weekly!</h2>
+          
+          
+                <div class="subscribe-container">
+              
+                <form action="action_page.php">
+                    <input type="text" placeholder="name@email.com" name="mail" required>
+                    
+                    <div class="container2">
+                        <input type="submit"  value="Subscribe" disabled>
+                    </div>
+                </form>
+                </div>                     
+          
+            </aside>
+        
+                      
+        
+  
+    
+<!-- This section is the structure for the footer -->
+    
+    <footer>                           
+      
+            <div class="footerlogo">
+              <a href="index.html"><img src="Images/GDMSmLogo.png" alt="Good Day Mom's Logo"></a>
+            </div>
+                            
+                <p>&copy; 2023 Good Day Moms</p>        
+        
+          
+            <div class="footersocial">
+                <a href="#Facebook" class="fa fa-facebook"></a>
+                <a href="#Instagram" class="fa fa-instagram"></a>
+            </div>          
+                    
+    
+    </footer>
+      
+  </body>
+
+</html>
+    
+
